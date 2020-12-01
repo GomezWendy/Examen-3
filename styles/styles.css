@@ -1,0 +1,100 @@
+  html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+  *, *:before, *:after{
+    box-sizing: inherit;
+  }
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+ /*header */ 
+  .siteheader{
+    background-image: url(/img/polynesia-3021072_1920.jpg);
+    background-position: center center;
+    height: 50rem;
+    background-size: cover;
+  }
+  .barra a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .barra h1{
+    text-align: center;
+    font-weight: 400;
+  }
+  .barra a:hover{
+    color: #271a02;
+  }
+  .anch{
+    font-weight: 700;
+  }
+  .navegacion a{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .texto-header{
+    padding: 6rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .texto-header p{
+    font-size: 2rem;
+  }
+  /* header */ 
+  @media (min-width:768px){
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+  }
+  @media (min-width:768px){    
+  .navegacion{
+        display: flex;
+    }
+    .navegacion a{
+    margin-left: 1.5rem;
+    }
+  
+  }
+  .texto-header{
+    color: #ffffff;
+  }
+  .contenedor{
+    max-width: 80.5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Mas acerca de nosotros*/
+  .iconos-index{
+    display: flex;
+    justify-content: space-between;
+}
+
+  .icono{
+   flex-basis: calc(33.3% - 2rem) ;
+   text-align: center;
+   line-height: 2;
+}
+
+  .cambio-seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+  .texto-centrado{
+    text-align: center;
+}
+
+  .fw-300{
+    font-weight: 300;
+}
+.icono .icono-candado{
+    height: 15rem;
+}
