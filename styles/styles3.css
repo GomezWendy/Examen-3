@@ -1,0 +1,97 @@
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+  }
+
+  *, *:before, *:after{
+    box-sizing: inherit;
+  }
+
+  body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+  }
+
+  /*Parte 1*/
+
+   /*header */ 
+   .siteheader{
+    background-image: url(/img/city-3116989_1920.jpg);
+    background-position: center center;
+    height: 50rem;
+    background-size: cover;
+  }
+  .barra a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .barra h1{
+    text-align: center;
+    font-weight: 400;
+  }
+  .barra a:hover{
+    color: #271a02;
+  }
+  .anch{
+    font-weight: 700;
+  }
+  .navegacion a{
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .texto-header{
+    padding: 5rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .texto-header p{
+    font-size: 2rem;
+  }
+  /* header */ 
+  @media (min-width:768px){
+    .barra{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+  
+  }
+  @media (min-width:768px){    
+  .navegacion{
+        display: flex;
+    }
+    .navegacion a{
+    margin-left: 1.5rem;
+    }
+  
+  }
+  .texto-header{
+    color: #ffffff;
+  }
+  .contenedor{
+    max-width: 80.5%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .navegacion{
+      background-color: transparent;
+      box-shadow: none ;
+  }
+    /*Fother*/
+    .footter{
+        margin: 5rem;
+        background-color: #24e053;
+        color:white;
+    }
+    
+      .barra{
+    
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 0.9rem;  
+        padding-bottom: 0.9rem;
+    }

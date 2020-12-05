@@ -1,18 +1,23 @@
-  html{
+html{
     box-sizing: border-box;
     font-size: 62.5%;
   }
+
   *, *:before, *:after{
     box-sizing: inherit;
   }
+
   body{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
     line-height: 2;
   }
- /*header */ 
-  .siteheader{
-    background-image: url(/img/polynesia-3021072_1920.jpg);
+
+  /*Parte 1*/
+
+   /*header */ 
+   .siteheader{
+    background-image: url(/img/shellfish-3062011_1920.jpg);
     background-position: center center;
     height: 50rem;
     background-size: cover;
@@ -71,68 +76,52 @@
     margin-left: auto;
     margin-right: auto;
   }
-  /*Mas acerca de nosotros*/
-  .iconos-index{
-    display: flex;
-    justify-content: space-between;
-}
-
-  .icono{
-   flex-basis: calc(33.3% - 2rem) ;
-   text-align: center;
-   line-height: 2;
-}
-
-  .cambio-seccion{
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-  .texto-centrado{
-    text-align: center;
-}
-
-  .fw-300{
-    font-weight: 300;
-}
-  
-  .icono1{
-      width: 8rem;
+  .navegacion{
+      background-color: transparent;
+      box-shadow: none ;
   }
-  /*Parte del centro*/
-  .informacion{
-    background-image: url(/img/father-656734_1920.jpg);
-    height: 35rem;
-    display: flex;
-    flex-direction: column;
-    min-height: 21rem;
-    background-position: center center;
-    background-size: 106rem;
-    line-height: 2;
-    color: #ffffff;
- }
+  /*Parte de body*/
+  .card .card-image img {
+    display: block;
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
 
-  .tema{
-    margin: 4rem 0rem 6rem 9rem;
-  }
-
-  .boton{
-    color: #ffffff;
-    padding: 0.8rem 3rem;
-    text-decoration: none;
-    font-weight: 700;
-    margin-top: 1rem;
+.waves-effect img {
+    position: relative;
+    z-index: -1;
+}
+ .img {
+    border-style: none;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+.waves-effect {
+    position: relative;
+    cursor: pointer;
     display: inline-block;
-    text-align: center;
-  }
-
-  .boton-2{
-    background-color:#80B918;
-  }
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    vertical-align: middle;
+    z-index: 1;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+}
   /*Fother*/
   .footter{
     margin: 5rem;
-    background-color: #5ABCB9;
+    background-color: #bca55a;
     color:white;
 }
 
